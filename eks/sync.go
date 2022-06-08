@@ -59,10 +59,10 @@ var (
 
 	// Reference: https://docs.aws.amazon.com/eks/latest/userguide/managing-vpc-cni.html
 	amazonVPCCNIVersionLookupTable = map[string]string{
-		"1.22": "1.10.2",
-		"1.21": "1.10.2",
-		"1.20": "1.10.2",
-		"1.19": "1.10.2",
+		"1.22": "1.11.0",
+		"1.21": "1.11.0",
+		"1.20": "1.11.0",
+		"1.19": "1.11.0",
 	}
 
 	defaultContainerImageAccount = "602401143452"
